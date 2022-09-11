@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+
+  match /databases/{database}/documents {
+
+    // 2. Table public_data has read access for everyone
+    match /public_data/{document=**} {
+      allow read, write; 
+    }
+
+    // 3. Table user_data has read, write for just that authenticated user
+    match /user_data/{userId} {
+      allow read, update: if request.auth.uid == userId;
+    }
+    // (and I guess anyone should be able to create a new user too .. thats a bonus rule)
+    match /user_data/{document=**} {
+      allow create; 
+      // and no one can delete a user
+    }
+  }
+
+}
