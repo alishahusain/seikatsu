@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/cryptobaddies/seikatsu.git"
   },
-  "author": "Alisha Husain",
+  "author": "Alisha Husain, Molly Beach",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
