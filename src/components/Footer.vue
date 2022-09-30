@@ -41,7 +41,7 @@
                 </div>
                 <p style="color: white">Copyright &copy; 2021</p>
                 <router-link to="/about" style="color: white"
-                    >About</router-link
+                    >Abouts</router-link
                 >
             </div>
         </div>
