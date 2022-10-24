@@ -1,4 +1,4 @@
-#cryptbaddiesnftwebsit
+#cryptbaddiesnftwebsite
 View our website :
 [here](https://cryptobaddiesnfts.web.app/)
 or view it [here](https://cryptobaddiesnfts.firebaseapp.com/).
